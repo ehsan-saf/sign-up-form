@@ -12,7 +12,75 @@ main {
     display: flex;
 }
 
+.form-section {
+    background-color: rgb(250, 250, 250);
+}
+
+.describtion {
+    margin: 100px 80px 20px 40px;
+    max-width: 70%;
+    font-size: 1.3rem;
+}
+
+.describtion+p {
+    margin-left: 40px;
+    font-size: 1.3rem;
+}
+
 img {
-    min-width: 40vw;
+    max-width: 600px;
     height: 100vh;
+}
+
+.form-container {
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-header {
+    margin-bottom: 20px;
+}
+
+.form-style {
+    background-color: white;
+    padding: 20px 20px 20px 40px;
+    margin: 40px 0 0 -50px;
+}
+
+.form-inputs {
+    display: flex;
+    gap: 70px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.submitButton {
+    width: 200px;
+    height: 38px;
+}
+
+.log-in-text {
+    margin: 35px 0 0 40px;
+}
+
+.log-in-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkgreen;
 }
