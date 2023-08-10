@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+
 body {
     min-width: 100vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -20,11 +22,13 @@ main {
     margin: 100px 80px 20px 40px;
     max-width: 70%;
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .describtion+p {
     margin-left: 40px;
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 img {
