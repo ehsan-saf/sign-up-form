@@ -74,6 +74,18 @@ form {
     gap: 3px;
 }
 
+form input {
+    border: 1.5px solid #E5E7EB;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+form input:focus {
+    outline: none;
+    border: 1.5px solid rgb(130, 130, 250);
+}
+
 .submitButton {
     width: 200px;
     height: 38px;
