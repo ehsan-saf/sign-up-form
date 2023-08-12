@@ -9,21 +9,11 @@ function passwordMatch() {
     if(password.value !== passwordConfirm.value) {
         password.classList.add("error");
         passwordConfirm.classList.add("error");
-        toggleMatchError();
-    }
-    else {
-        password.classList.remove("error");
-        password.classList.remove("error");
-        toggleMatchError();
-    }
-}
-
-function toggleMatchError() {
-
-    if(matchErrorMessage.style.opacity === "0") {
         matchErrorMessage.style.opacity = "1";
     }
     else {
+        password.classList.remove("error");
+        passwordConfirm.classList.remove("error");
         matchErrorMessage.style.opacity = "0";
     }
 }
