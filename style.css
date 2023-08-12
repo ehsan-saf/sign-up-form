@@ -98,7 +98,6 @@ form input:focus {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
 .log-in-text {
     margin: 35px 0 0 40px;
 }
@@ -107,4 +106,16 @@ form input:focus {
     text-decoration: none;
     font-weight: bold;
     color: darkgreen;
+}
+
+.error {
+    border: 1.5px solid red;
+    transition: all 0.5s;
+}
+
+.match-error {
+    font-size: 11px;
+    color: red;
+    transition: all 0.3s;
+    opacity: 0;
 }
